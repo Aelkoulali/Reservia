@@ -10,7 +10,7 @@ html,body{
     margin: 0;
         
     }
-  /*** HEADER ***/
+/*** HEADER ***/
   a {
 
     color: inherit;
@@ -142,3 +142,41 @@ html,body{
             
 
 
+/*** MAIN ***/
+
+.main {
+    max-width: 2540px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    }
+    
+    
+    .findYourAccommodation {
+    font-family: 'Raleway';    
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
+    
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 770px) {
+    
+    .findYourAccommodation {
+    margin-left: 10px;
+    width: 100%;
+    height: auto;    
+    } 
+    
+    .findYourAccommodation > h1 {
+    font-size: 1.5rem; 
+    padding-right: 0; 
+    padding-left: 15px;
+    margin-right: 40px;  
+    }   
+    
+    .findYourAccommodation > p {
+    margin-left: 15px;    
+    }
+        
+    }
