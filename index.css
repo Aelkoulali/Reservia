@@ -144,7 +144,7 @@ html,body{
 
 /*** MAIN ***/
 
-.main {
+  .main {
     max-width: 2540px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -178,5 +178,102 @@ html,body{
     .findYourAccommodation > p {
     margin-left: 15px;    
     }
-        
+       
     }
+
+/*** SEARCHBAR ***/
+
+
+  .searchBar {
+
+  display:flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+  font-family: 'Raleway';
+  
+  }
+  
+  .inputbox {
+  
+  box-shadow:1px solid #f2f2f2 ;
+  font-size: 400;
+  max-width: 250px ;
+  height: 80px;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+  display: inline-block; 
+  
+  }
+  
+  .positionIcon {
+  
+  height: auto;
+  min-width: 80px;
+  position: relative;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color:#f2f2f2 ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  }
+  
+  .buttonSearch {
+  
+  height: auto;
+  width: 200px;
+  font-size: 400;
+  position: relative;
+  font-weight: bold; 
+  color: white;
+  cursor: pointer;
+  background-color:#0065FC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 770px) {
+  
+  .positionIcon {
+  height: auto;
+  min-width: 65px;
+  position: relative;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color:#f2f2f2 ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+        
+          }
+  
+  .searchBar {
+  max-width: 100%;
+  height: auto;
+  padding-left: 0;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  }
+  
+  .inputbox {
+  max-width: 100px;
+  }
+  
+  .buttonSearch {
+  max-width: 120px;
+    
+  }
+  
+  }
+  
