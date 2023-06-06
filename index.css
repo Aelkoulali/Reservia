@@ -75,19 +75,19 @@ html,body{
         
 @media screen and (min-width: 771px) {
 
-            .header {
-            grid-template-columns: auto 1fr auto auto;
-            grid-template-areas: "logo . navbar button";
+    .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
             
             }
             
-            .link[data-active=true] {
-            border-top: 3px solid #0065FC;
+    .link[data-active=true] {
+    border-top: 3px solid #0065FC;
             
             }
             
-            .link:hover {
-            border-top: 3px solid #0065FC;
+    .link:hover {
+    border-top: 3px solid #0065FC;
             
             }
             
@@ -95,46 +95,46 @@ html,body{
             
 @media screen and (max-width: 770px) {
             
-            .header {
+    .header {
             
-            grid-template-columns: auto 1fr auto;
-            grid-template-areas: "logo . button" "navbar navbar navbar";
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo . button" "navbar navbar navbar";
             
             
             }
             
-            .logoimg {
-            order: 0;
+    .logoimg {
+    order: 0;
             
             }
             
-            .sign {
-            order: 1;
+    .sign {
+    order: 1;
             
             }
             
-            .navbar {
-            order: 2;
+    .navbar {
+    order: 2;
             
             }
             
-            .link {
-            border-top: none;
-            border-bottom: 3px solid #F2F2F2;
-            width: 50%;
-            
-            }
-            
-            
-            .link[data-active=true] {
-            
-            border-bottom-color: #0065FC;
+    .link {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
             
             }
             
             
-            .link:hover {
-            border-bottom-color: #0065FC;
+    .link[data-active=true] {
+            
+    border-bottom-color: #0065FC;
+            
+            }
+            
+            
+    .link:hover {
+    border-bottom-color: #0065FC;
             
             }
             
@@ -144,7 +144,7 @@ html,body{
 
 /*** MAIN ***/
 
-  .main {
+    .main {
     max-width: 2540px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -184,96 +184,264 @@ html,body{
 /*** SEARCHBAR ***/
 
 
-  .searchBar {
+    .searchBar {
 
-  display:flex;
-  justify-content: flex-start;
-  max-width: 100%;
-  height: auto;
-  margin-left: 50px;
-  font-family: 'Raleway';
+    display:flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    font-family: 'Raleway';
   
   }
   
-  .inputbox {
+    .inputbox {
   
-  box-shadow:1px solid #f2f2f2 ;
-  font-size: 400;
-  max-width: 250px ;
-  height: 80px;
-  color: black;
-  font-weight: bold;
-  align-items: center;
-  position: relative;
-  display: inline-block; 
-  
-  }
-  
-  .positionIcon {
-  
-  height: auto;
-  min-width: 80px;
-  position: relative;
-  border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px;
-  background-color:#f2f2f2 ;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+    box-shadow:1px solid #f2f2f2 ;
+    font-size: 400;
+    max-width: 250px ;
+    height: 80px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    display: inline-block; 
   
   }
   
-  .buttonSearch {
+    .positionIcon {
   
-  height: auto;
-  width: 200px;
-  font-size: 400;
-  position: relative;
-  font-weight: bold; 
-  color: white;
-  cursor: pointer;
-  background-color:#0065FC;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-right-radius: 25px;
-  border-top-right-radius: 25px;
+    height: auto;
+    min-width: 80px;
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color:#f2f2f2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
   
   }
   
-  @media screen and (min-width: 320px) and (max-width: 770px) {
+    .buttonSearch {
   
-  .positionIcon {
-  height: auto;
-  min-width: 65px;
-  position: relative;
-  border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px;
-  background-color:#f2f2f2 ;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+    height: auto;
+    width: 200px;
+    font-size: 400;
+    position: relative;
+    font-weight: bold; 
+    color: white;
+    cursor: pointer;
+    background-color:#0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  
+  }
+  
+    @media screen and (min-width: 320px) and (max-width: 770px) {
+  
+    .positionIcon {
+    height: auto;
+    min-width: 65px;
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color:#f2f2f2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
         
           }
   
-  .searchBar {
-  max-width: 100%;
-  height: auto;
-  padding-left: 0;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+    .searchBar {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
   
   }
   
-  .inputbox {
-  max-width: 100px;
+    .inputbox {
+    max-width: 100px;
   }
   
-  .buttonSearch {
-  max-width: 120px;
+    .buttonSearch {
+    max-width: 120px;
     
   }
   
   }
+/*** FILTERS ***/
+
+
+   .filter {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-size: 300;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
   
+  } 
+  
+    .icon {
+  
+    border-radius: 40px;
+    box-shadow: 0px 0px 2px #f2f2f2;
+    padding: 20px;
+    background:#DEEBFF;
+    height: 35px; 
+    width: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+  
+  }
+  
+    .filterSearch {
+  
+    padding-left: 10px; 
+    width: 100%;
+    height: auto;
+    display:flex;
+    margin-top: 50px;
+    font-family: 'Raleway';
+  
+  }
+  
+    .filterTypeText {
+   
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+    .filterType {
+  
+    height: auto;
+    max-width: 350px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    display:flex;
+    align-content:center;
+    border: 2px solid #f2f2f2;
+    border-radius: 45px;
+    cursor: pointer;
+  
+  }
+  
+  
+  
+    .text {
+
+    font-weight: bold;
+    padding-top: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
+  
+  
+    .filterType:hover {
+
+    background-color:#DEEBFF;
+    transform: scale(1.05);
+  }
+  
+  
+  
+    @media screen and (max-width: 1020px) {
+  
+  
+  
+    .filterSearch {
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  
+  }
+  
+   .filterTypeText {
+
+    flex-wrap: wrap;
+    margin-left: 30px;
+  
+  }
+  
+   .filterType {
+  
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+  
+  }
+  
+    
+   .filter {
+  
+   padding-left: 0;
+  
+  }
+  
+  } 
+  
+   @media screen and (min-width: 320px) and (max-width: 770px) {
+  
+    
+   .filterSearch {
+  
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   padding-left: 0;
+  
+  }
+  
+  
+  
+   .filter {
+  
+   width: 100%;
+   height: auto;
+   margin-left: 35px;
+   padding-left: 0;
+   padding-top: 20px;
+  
+  }
+  
+   .filterTypeText {
+
+   margin-left: 0; 
+   margin-right: 0;
+   margin-bottom:auto;   
+  }
+  
+    
+   .filterType {
+
+   height: auto;
+   margin-right: 10px;
+   margin-bottom: 0px;
+   margin-left: 20px;
+  
+  }
+  
+  }
+    
