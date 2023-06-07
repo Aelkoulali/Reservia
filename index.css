@@ -523,4 +523,304 @@ html,body{
   }
   
   }
+
+/*** SECTION ***/
+
+
+/*** HEBERGEMENTS ***/
+
+
+  .accommodation-main-title {
+
+  width: 100%;
+  height: auto;
+  padding-left: 180px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  
+  }
+  
+  
+  .accommodation-main-container {
+  font-family: 'Raleway';
+  max-width: 100%; 
+  height: auto;
+  background-color:#f2f2f2;
+  border-radius: 25px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 0;
+  
+  }
+  
+  .accommodationList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+     
+  }
+  
+  .accommodation-main {
+  
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+  
+  } 
+  
+  .accommodation-main > p {
+  padding-left: 0;
+  
+  }
+  
+  .accommodation-main-image > img {
+  
+  background-color: white;
+  position: relative;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 280px;
+  height: 120px;
+  }
+  
+  .description {
+  
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: white;
+  text-align : start;
+  font-size: 600;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  
+  }
+    
+  
+  .description > p {
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  
+  }
+  
+  .description > h4 {
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  }
+  
+  .show-more {
+  
+  width: 100%;
+  height: auto;
+  padding-left: 120px;
+  padding-bottom: 15px;
+  
+  } 
+  
+  
+  .show-more > h3 {
+  
+  padding-left: 70px;
+  
+  }
+    
+  
+  @media screen and (min-width: 1024px) and (max-width: 1505px){
+  
+  .show-more {
+  margin: 0;
+  margin-left: 0;
+  
+  }
+  
+  }
+  
+  @media screen and (max-width: 1024px ){
+  .show-more  {
+  padding-left: 0;    
+  }    
+      
+  }
+  
+  
+  @media screen and (max-width: 770px) {
+  
+  .show-more > h3 {
+  padding-left: 20px;
+  
+  }
+  
+  }
+  
+  
+  .accommodation-main:hover{ 
+  transform: scale(1.05);
+  
+  }
+  
+  @media screen and (min-width: 1236px) and (max-width: 1505px) {
+  
+  .accommodation-main-container {
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+  margin-left: 50px;
+          
+  } 
+  
+  .accommodation-main {
+  height: auto;
+  width: auto;
+  
+  }
+  
+  .accommodation-main-title {
+   margin-bottom: 50px;
+   padding-left: 0;
+  }
+  
+  .accommodationList {
+  padding-right: 0px;
+  justify-content: center;
+  }
+  
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1235px) {
+  
+  .accommodation-main-container {
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 0;
+  
+  }
+  
+  .accommodationList {
+  padding-left: 0;
+  }
+  
+  .accommodation-main {
+  margin: 30px;
+  box-shadow: 0 0 20px #0000002e;
+  }
+  
+  .accommodation-main-title {
+  padding-left: 50px;
+  
+  }
+  
+  }
+  
+  @media screen and (min-width: 771px) and (max-width: 1024px)  {
+  .accommodation-main-container {
+  max-width: 100%;
+  background-color: white;
+  border-radius: 0;
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }  
+  
+  .accommodation-main {
+  max-width: 100%;  
+  box-shadow: 0 0 20px #0000002e;
+  
+  }
+  
+  
+  .accommodationList {
+  max-width: 100%;    
+  }
+  
+      
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 770px) {
+  
+  .accommodation-main-container {
+  
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-radius: 0;
+  }
+  
+  .accommodationList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  }
+  
+  
+  .accommodation-main {
+  margin-bottom: 50px;
+  max-width: 100%;
+  box-shadow: 0 0 20px #0000002e;
+  
+  } 
+  
+  .accommodation-main-image > img {
+  object-fit: cover;
+  width: 100%;
+  }
+  
+  .description {
+  width: 100%;
+  height: auto;
+  }
+  
+  .accommodation-main-title {
+  max-width: 100%;
+  height: auto;
+  padding-left: 20px;
+  }
+  
+  }
+  
+  
+/*** STAR RATING ***/
+  
+  .rating {
+  padding-bottom: 0; 
+  }
+  
+  .checked {
+  color: #0065FC; 
+  } 
+  
+  .unchecked {
+  color:#f2f2f2;
+  }
+  
       
