@@ -1076,4 +1076,62 @@ html,body{
   }
   
   }
-       
+
+/*** MAIN-CONTAINER ***/
+
+  .accommodation {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  @media screen and (min-width: 1235px) and (max-width: 1505px ){
+  
+  .accommodation {
+  
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  
+  
+  } 
+  
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1234px) {
+  .accommodation {
+  
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  
+  
+  } 
+      
+  }
+  
+  @media screen and (min-width: 771px) and (max-width: 1024px) {
+  .accommodation {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  
+  
+  }    
+      
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 770px) {
+  .accommodation {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  
+  }    
+      
+  } 
+  
