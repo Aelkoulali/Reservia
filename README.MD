@@ -1,4 +1,5 @@
 # Reservia
-## A Responsive Hotel Booking Website
+## A Responsive Hotel Website
+## Hotels & Activities Nearby
 ## HTML & CSS
 
