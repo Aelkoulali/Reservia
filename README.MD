@@ -3,24 +3,15 @@
 
 ## ✅ Key Features
 - Responsive design (mobile-first)
-- Reusable UI (navbar + footer on each page)
-- Cards with images for Menu/ Bevarages and Food
-- Clean sections for About, Menu, Reservation, Contact, Food, beverages 
-- Contact page with a form UI
-
-## 📄Pages Included
-- `index.html` (Home)
-- `about.html` (About)
-- `menu.html` (Menu)
-- `beverages.html` (Beverages)
-- `food.html` (Food)
-- `contact.html` (Contact)
-- `reservation.html` (Reservation)
+- Reusable UI (navbar + footer)
+- Cards with images for hotels  included popular ones
+- Search bar with input  
+- filters such pets accepted....  
 
 ## 🛠️ Tech Stack
 - HTML
 - CSS
-- Bootstrap
+
 
 ##  ▶️ How to Run
 Just open the project files in a browser:
