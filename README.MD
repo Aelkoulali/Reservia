@@ -18,7 +18,4 @@ Just open the project files in a browser:
 1. Download/clone the repository
 2. Open `index.html` in your browser
 
-## ➡️ A Responsive Hotel Website
-## ➡️ Hotels & Activities Nearby
-## ✅ HTML & CSS
 
